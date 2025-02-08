@@ -9,7 +9,7 @@ In this stage, a hollow torus geometry (similar to a tokamak chamber) is generat
 
 #### Solution:
 - **Code**: Generates the torus geometry and builds the mesh using Gmsh.
-- **Output**: A screenshot of the generated mesh is provided.
+- **Output**: Generated mesh in gmsh GUI.
 
 ### **Stage 2: Import and Mesh an STL File**
 In this stage, an STL file is imported, and the code successfully generates a mesh of the external geometry. The STL file was carefully selected to ensure it meshes correctly.
@@ -17,18 +17,34 @@ In this stage, an STL file is imported, and the code successfully generates a me
 #### Solution:
 - **STL File**: An interesting STL object is provided.
 - **Code**: Reads the STL file and generates the mesh.
-- **Output**: A screenshot of the generated mesh is provided.
+- **Output**: Generated mesh in gmsh GUI.
 
 ## 🛠️ How to Run the Code
 
 ### **Prerequisites**
 - Gmsh installed on your machine.
-- C++ compiler or Python (if using Gmsh's Python API).
+- C++ compiler 
 - The STL file is included for Stage 2.
 
 ### **Running the Code**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/torus-mesh-lab.git
+   git clone https://github.com/blawald/LPR_CP.git
    cd torus-mesh-lab
+
+## 📸 Screenshots
+
+### **Stage 1: Hollow Torus Mesh**
+![Torus Mesh Full](пончик-токомак-целый.png)
+> Mesh generated for the donut.
+
+![Torus Mesh Half](пончик-токомак-откусил.png)
+> Mesh generated for the donut.
+
+
+### **Stage 2: STL Object Mesh**
+![STL Object Mesh](поднос_ксп.png)
+> Mesh generated from the Поднос из ксп.
+
+
 
