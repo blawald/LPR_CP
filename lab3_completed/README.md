@@ -1,4 +1,4 @@
-# 🔧 Torus Mesh Lab – Gmsh Geometry and Mesh Generation
+# 🔧 FEniCS Lab – Einite Element Eethods and Eoisson Equation
 
 This repository provides solutions for the **FEniCS Lab - poisson**, where we take some mesh and apply FEniCS possibilities to it. The project does significant geometry changes, as were demanded.
 
